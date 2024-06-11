@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+   
+}
+
+.section{
+    border-radius: 50px;
+}
+
+/* Botones */
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem;
+    background-color: rgb(67, 110, 112);
+}
+/* Titulo */
+.title-TaskList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: rgb(92, 181, 162);
+
+}
+/* contenido make task */
+.make-task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    background-color: rgb(92, 181, 162);
+
+}
+
+/* EStilo botones  */
+.btn{
+    background-color: rgb(95, 158, 160);
+    padding: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+
+}
+.btn:hover{
+    box-shadow: 5px 5px 20px rgb(21, 139, 130);
+    transform: scale(1.1);
+}
+
+.textarea{
+    background-color: cadetblue;
+    width: 300px; /* Ancho fijo de 300px */
+    height: 150px; /* Altura fija de 150px */
+    resize: none;
+   
+}
+.text{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    
+
+}
